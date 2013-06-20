@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item   
+        android:id="@+id/menu_email_refash"   
+        android:title="@string/email_title_menurefresh"   
+        android:icon="@drawable/ctrl_refesh"/> 
+    <item   
+        android:id="@+id/menu_email_autolog"   
+        android:title="@string/email_title_menuauto"
+        android:icon="@drawable/ctrl_auto"/>  
+    <item   
+        android:id="@+id/menu_email_exit"   
+        android:title="@string/email_title_menuexit"
+        android:icon="@drawable/ctrl_exit"/>  
+ 
+</menu>

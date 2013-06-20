@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item   
+        android:id="@+id/menu_addunderctrl"   
+        android:title="@string/ctrl_add"   
+        android:icon="@drawable/ctrl_add"/> 
+    <item   
+        android:id="@+id/menu_returnfrommanage"   
+        android:title="@string/ctrl_return"
+        android:icon="@drawable/ctrl_return"/>  
+ 
+</menu>

@@ -1,0 +1,220 @@
+<RelativeLayout          
+	xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:background="@color/color_black"> 
+
+    <ScrollView    
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"> 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+   <TextView   
+      android:text="@string/main_title"
+      android:layout_width="fill_parent"  
+      android:layout_height="wrap_content"   
+      android:textColor="@color/color_yellow"  
+      android:background="@drawable/line_tip"
+      android:gravity="center_horizontal"
+      android:textStyle="bold"
+      android:textSize="20sp"/>  
+      
+<!-- 当没有受控者时显示的 -->   
+
+        <Button
+			android:id="@+id/button_addUnderCtrlOrEmailFileNull"
+			android:layout_marginTop="50dip"	
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+    		android:layout_marginLeft="10dip"
+    		android:layout_marginRight="10dip"
+    		android:background="@drawable/btn_ctrllist"			
+			android:text="@string/main_tip_nullunderctrl"
+			android:textSize="20sp" 
+			android:layout_centerHorizontal="true"/>
+<!-- 显示到此处 -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:stretchColumns="0,1"><!-- have an eye on !    --> 
+    <TableRow><!-- row1 --> 
+		<TextView  
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:layout_marginTop="10dip"
+    		android:layout_marginLeft="10dip"
+    		android:id="@+id/text_ShowCtrlWho"
+    		android:text="@string/mian_tip_ctrlwho"
+    		android:textColor="@color/color_green"
+			android:layout_column="0" 
+    		android:textSize="20sp"/>    
+
+		<Spinner
+  			android:id="@+id/spinner_ShowUnderCtrls"
+  			android:layout_width="140dip"
+  			android:layout_height="wrap_content"
+  			android:singleLine="true"
+		  	android:ellipsize="marquee"
+		  	android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            
+            android:gravity="center"
+            android:layout_alignWithParentIfMissing="true" 
+  			android:layout_marginTop="10dip"
+    		android:layout_marginRight="10dip"
+    		android:layout_marginLeft="10dip"
+    		android:layout_centerHorizontal="true" 
+    		android:background="@drawable/buttonselector"
+    		android:layout_column="1"/> 
+	</TableRow>	
+</TableLayout>     		
+
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="5dip" 
+    		android:layout_marginRight="10dip"    	
+    		android:layout_marginLeft="10dip"	
+    		android:id="@+id/text_ctrlopera"
+    		android:text="@string/main_tip_opera"
+    		android:textColor="@color/color_green"
+			android:layout_column="0" 
+    		android:textSize="20sp"/>  
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:stretchColumns="0,1,2"><!-- have an eye on !    --> 
+    <TableRow><!-- row1 --> 
+
+ 		<Button
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="wrap_content"
+    		android:layout_marginLeft="10dip"
+    		android:layout_marginTop="20dip"
+    		android:background="@drawable/btn_ctrllist"
+ 			android:textSize="20sp"
+			android:id="@+id/button_cal"
+			android:text="@string/ctrl_cal"
+			android:layout_column="0" />
+
+
+  <View 
+  	android:id="@+id/view_1"
+  	android:layout_width="20dip"
+  	android:layout_height="10dip"
+  	android:layout_marginTop="40dip"
+  	android:background="@color/color_black"
+  	android:layout_column="1"/>
+  	
+ 		<Button
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="wrap_content"
+    		android:layout_marginRight="10dip" 			
+    		android:background="@drawable/btn_ctrllist"
+ 			android:textSize="20sp"
+			android:id="@+id/button_msg"
+			android:layout_marginTop="20dip"
+			android:text="@string/ctrl_msg"
+			android:layout_column="2" />
+	</TableRow>
+	<TableRow>
+		<Button
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="wrap_content"
+    		android:layout_marginLeft="10dip"
+    		android:background="@drawable/btn_ctrllist"
+ 			android:textSize="20sp"
+			android:id="@+id/button_contact"
+			android:layout_marginTop="20dip"
+			android:text="@string/ctrl_contact"
+			android:layout_column="0" />
+<!--  
+
+  <View 
+  	android:layout_width="20dip"
+  	android:layout_height="10dip"
+  	android:layout_marginTop="40dip"
+  	android:background="@color/color_black"
+  	android:layout_column="1"/>
+  	-->
+		<Button
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="wrap_content"
+            android:layout_marginRight="10dip" 			
+ 			android:background="@drawable/btn_ctrllist"
+ 			android:textSize="20sp"
+			android:id="@+id/button_check"
+			android:layout_marginTop="20dip"
+			android:text="@string/ctrl_check"
+			android:layout_column="2" />
+	</TableRow>	
+</TableLayout> 
+	
+<Button
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="wrap_content"
+ 	android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip" 	
+ 	android:background="@drawable/btn_ctrllist"
+ 	android:textSize="20dip"
+	android:id="@+id/button_otherdoes"
+	android:layout_marginTop="20sp"
+	android:text="@string/ctrl_otherdoes"/>	
+	
+
+       </LinearLayout> 
+       </ScrollView>
+      <Button 
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:id="@+id/button_Manage" 
+		   android:layout_centerHorizontal="true" 
+           android:layout_centerInParent="false"
+           android:layout_alignParentLeft="true" 
+           android:layout_alignWithParentIfMissing="true" 
+           android:layout_alignBottom="@layout/activity_ctrl" 
+           android:background="@drawable/buttonselector"
+           android:text="@string/main_btn_manager"
+           android:textSize="20sp">
+       </Button>
+ 	   <Button 
+ 	   	   android:layout_width="wrap_content" 
+ 	   	   android:layout_height="wrap_content" 
+           android:id="@+id/button_about" 
+		   android:layout_centerHorizontal="true"
+		   android:layout_alignParentRight="false" 
+           android:layout_centerInParent="true"
+           android:layout_alignParentLeft="false" 
+           android:layout_alignWithParentIfMissing="true" 
+           android:layout_alignBottom="@layout/activity_ctrl" 
+           android:background="@drawable/buttonselector"       
+           android:text="@string/main_btn_about"
+           android:textSize="20sp">
+       </Button>       
+     
+     <Button 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:id="@+id/button_Exit" 
+         android:layout_centerHorizontal="true" 
+         android:layout_centerInParent="false"
+         android:layout_alignParentRight="true" 
+         android:layout_alignWithParentIfMissing="true" 
+         android:layout_alignBottom="@layout/activity_ctrl" 
+         android:background="@drawable/buttonselector"
+         android:text="@string/main_btn_exit"
+         android:textSize="20sp">
+       </Button>
+
+</RelativeLayout> 

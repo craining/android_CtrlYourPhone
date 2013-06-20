@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout          
+	xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:background="#7700bb"> 
+    <ScrollView    
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"> 
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		  android:layout_width="fill_parent"
+  		  android:layout_height="wrap_content"
+  		  android:orientation="vertical">
+
+              <Button
+                 android:id="@+id/button_callsb"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+  		         android:layout_marginLeft="20dip"
+  		         android:layout_marginRight="20dip"     
+  		         android:layout_marginTop="20dip"
+    		     android:background="@drawable/btn_ctrllist" 
+    		     android:singleLine="true"
+		  	     android:ellipsize="marquee"
+		  	     android:textStyle="bold"
+                 android:text="@string/dialtosb_title"/>
+              <Button
+                 android:id="@+id/button_callctrl"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+  		         android:layout_marginLeft="20dip"
+  		         android:layout_marginRight="20dip"
+  		         android:layout_marginTop="20dip"
+    	   		 android:background="@drawable/btn_ctrllist" 
+    		     android:singleLine="true"
+		  	     android:ellipsize="marquee"
+		  	     android:textStyle="bold"    	   		    
+                 android:text="@string/cal_callctrl"/>      
+              <Button
+                 android:id="@+id/button_nocallout"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+  		         android:layout_marginLeft="20dip"
+  		         android:layout_marginRight="20dip"
+  		         android:layout_marginTop="20dip"
+    	   		 android:background="@drawable/btn_ctrllist"    
+    		     android:singleLine="true"
+		  	     android:ellipsize="marquee"
+		  	     android:textStyle="bold"    	   		 
+                 android:text="@string/cal_noout"/>                         
+              <Button
+                 android:id="@+id/button_callunderctrl"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+  		         android:layout_marginLeft="20dip"
+  		         android:layout_marginRight="20dip"
+  		         android:layout_marginTop="20dip"
+  		         android:layout_marginBottom="20dip"
+    	   		 android:background="@drawable/btn_ctrllist"    
+    		     android:singleLine="true"
+		  	     android:ellipsize="marquee"
+		  	     android:textStyle="bold"    	   		 
+                 android:text="@string/cal_underctrl"/>                              
+         <Button 
+ 	   	   android:layout_width="fill_parent" 
+ 	   	   android:layout_height="wrap_content" 
+           android:id="@+id/button_call_return" 
+		   android:layout_centerHorizontal="true"
+           android:background="@drawable/btn_bottom"       
+           android:text="@string/ctrl_return"
+           android:textSize="20dip">
+       </Button>       
+	   </LinearLayout>
+	   
+    </ScrollView >
+    
+
+</RelativeLayout> 

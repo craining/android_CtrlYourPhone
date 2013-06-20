@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:layout_height="fill_parent">
+
+  <TextView   
+       android:id="@+id/text_emailsub"
+      android:layout_width="fill_parent"  
+      android:layout_height="wrap_content"   
+      android:textColor="@color/color_yellow"  
+      android:background="@drawable/line_tip"
+      		android:singleLine="true"
+		  	android:ellipsize="marquee"
+		  	android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:gravity="center_horizontal"
+      android:textSize="20sp"
+      android:textStyle="bold"/> 
+  <TextView   
+      android:id="@+id/text_emailtimeandfrom"
+      android:layout_width="fill_parent"  
+      android:layout_height="wrap_content"   
+      android:textColor="@color/color_yellow"  
+      android:layout_centerHorizontal="true" 
+	  android:gravity="right"
+	  android:textSize="15sp"
+	  android:layout_marginRight="10dip"
+	  android:textAppearance="?android:attr/textAppearanceMedium"/> 
+  <TextView   
+      android:id="@+id/text_emailcontenttip"
+      android:layout_width="fill_parent"  
+      android:layout_height="wrap_content"   
+      android:textColor="@color/color_yellow"  
+      android:textSize="20sp"
+      android:textStyle="bold"/> 	  
+      <ScrollView    
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">	  
+  <TextView   
+      android:id="@+id/text_emailcontent"
+      android:layout_width="fill_parent"  
+      android:layout_height="wrap_content"  
+      android:layout_marginLeft="10dip"
+      android:layout_marginRight="10dip" 
+      android:layout_marginTop="6dip"
+      android:textColor="@color/color_yellow"/> 
+
+  	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+  		android:stretchColumns="0,1">
+  		<TableRow>
+  			<TextView   
+       			android:id="@+id/text_emailAttach"
+      			android:layout_width="fill_parent"  
+      			android:layout_height="wrap_content"   
+      			android:textColor="@color/color_yellow" 
+      			android:layout_marginTop="20dip" 
+      			android:layout_marginBottom="30dip" 
+      			android:textSize="20sp"
+      			android:textStyle="bold"/> 
+         	<Button 
+         		android:layout_width="wrap_content" 
+         		android:layout_height="wrap_content" 
+         		android:layout_marginTop="20dip" 
+      			android:layout_marginBottom="30dip" 
+         		android:id="@+id/button_DownLoadAttach" 
+         		android:layout_centerHorizontal="true" 
+      		   	android:layout_centerInParent="false"
+   		    	android:layout_alignParentRight="true" 
+         		android:layout_alignWithParentIfMissing="true" 
+         		android:background="@drawable/buttonselector"
+         		android:textSize="20dip"
+         		android:text="@string/email_attachdownload"
+         		android:visibility="gone">
+       		</Button>
+       </TableRow>
+       </TableLayout>
+    </LinearLayout>
+    
+</ScrollView>
+  
+</LinearLayout>

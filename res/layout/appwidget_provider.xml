@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_widget"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_out"
+    android:focusable="true"
+    android:clickable="true">
+    <ImageView 
+    	android:id="@+id/img_doctrl"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_gravity="center"
+    	android:src="@drawable/icon"
+    	/>
+        <TextView 
+        	android:id="@+id/text_logemail"
+        	android:layout_width="wrap_content"
+       	 	android:layout_height="wrap_content"
+       	 	android:background="@drawable/bg_in"	
+       	 	android:singleLine="true"
+       	 	android:clickable="true"
+       	 	android:text="登录邮箱"
+       	 	android:textColor="@color/color_purple"/>    
+    <TextView 
+   	 	android:id="@+id/appwidget_text" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+    	android:visibility="gone"/>
+
+</LinearLayout>
+
+
+<!-- 在桌面的Widget布局 -->

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CtrlYourPhone!</string>
+    <string name="app_name">CtrlYourPhone</string>
+    
+    <string name="ctrl_sure">确定</string>
+    <string name="ctrl_cancle">取消</string>
+    <string name="ctrl_send">发送</string>
+    <string name="ctrl_return">返回</string>
+    <string name="ctrl_edit">修改</string>
+    <string name="ctrl_del">删除</string>
+    <string name="ctrl_delsuccess">删除成功！</string>
+    <string name="ctrl_delfail">数据丢失，删除失败！请重新运行程序</string>
+    <string name="ctrl_addsuccess">添加成功！</string>
+    <string name="ctrl_changeSuccess">修改成功！</string>
+    <string name="ctrl_addfail">数据丢失，添加失败！请重新运行程序</string>
+    <string name="ctrl_namenull">姓名和受控密码均不能为空！</string>
+    <string name="ctrl_numnull">号码不能为空！</string>
+    <string name="ctrl_namenumnull">姓名和号码以及受控密码均不能为空！</string>
+    <string name="ctrl_numsame">此号码已经存在！</string>
+    <string name="ctrl_alarm">警告：</string>
+    <string name="ctrl_saveemailtitle">保存控制者邮箱</string>
+    <string name="ctrl_save">保存</string>
+    <string name="ctrl_add">添加</string>
+    <string name="ctrl_inputemailaddress">在此输入您的邮箱地址</string>
+    <string name="ctrl_inputemailaddressnull">邮箱地址不能为空！</string>
+    <string name="ctrl_inputemailpwdnull">密码不能为空！</string>
+    <string name="ctrl_sendcommandsuccess">命令发送成功！</string>
+    <string name="ctrl_sendcommandfail">命令发送失败！</string>
+    
+    <string name="main_title">欢迎使用手机控制器</string>
+    <string name="main_tip_nullunderctrl">您尚没有添加受控者，请点击添加</string>
+    <string name="main_tip_nullemailfile">需要先保存您的邮箱，请点击保存</string>
+    <string name="main_tip_saveemailsuccess">邮箱保存成功！您可以在其它操作项中更改</string>
+    <string name="mian_tip_ctrlwho">您正在控制：</string>
+    <string name="main_tip_opera">您可以进行的操作：</string>
+
+    <string name="main_btn_manager">管理</string>
+    <string name="main_btn_about">关于</string>
+    <string name="main_btn_exit">退出</string>
+
+    <string name="addunderctrl_title">添加受控者</string>
+    	<string name="addunderctrl_inputnumber">在此输入受控者的电话</string>
+    	<string name="addunderctrl_inputname">在此输入受控者的姓名</string>
+    	<string name="underctrl_title">受控者管理</string>
+    	<string name="underctrllist_tip">以下是受控者列表：</string>
+    	<string name="underctrllist_contextmenutitle">选择操作：</string>
+    	<string name="underctrllistnull_tip">您尚未添加任何受控者！</string>
+    	<string name="underctrllist_edit">修改受控者信息</string>
+    	<string name="underctrl_cannotedit">（不能修改）</string>
+
+    <string name="ctrl_cal">"  拨号操作  "</string>
+    <string name="ctrl_msg">"  短信操作  "</string>
+    <string name="ctrl_contact">"联系人管理"</string>
+    <string name="ctrl_check">"  查询操作  "</string>
+    <string name="ctrl_otherdoes">"其  它  操  作"</string>
+
+    <string name="cal_select_title">请选择拨号操作项：</string>
+    	<string name="dialtosb_title">让受控者拨打电话</string>
+    		<string name="dialtosb_inputnumber">在此输入要拨打的号码</string>
+    	<string name="cal_callctrl">让受控者给我打电话</string>
+    	<string name="cal_underctrl">给受控者拨打电话</string>
+    	<string name="cal_noout">禁止受控者拨打电话</string>
+
+    <string name="msg_select_title">请选择短信操作项：</string>
+    	<string name="sendmsgtosb_title">让受控者发送短信</string>
+    		<string name="sendmsgtosb_inputnumber">在此输入接收者的号码</string>
+    		<string name="sendmsgtosb_inputtext">在此输入信息内容</string>
+    		<string name="sendmsgtosb_inputtimes">在此输入发送次数（默认1）</string>
+    	<string name="msg_sendsecretmsg_title">发送加密短信</string>
+    		<string name="msg_sendsecretmsg_inputcontent">在此输入短信内容</string>
+    		<string name="msg_sendsecretmsg_inputreadpwd">在此设定读取密码（对方凭此密码才能查阅短信内容）</string>
+    		<string name="msg_sendsecretmsg_success">加密信息发送成功！</string>
+    		<string name="msg_sendsecretmsg_fial">加密信息发送失败！</string>
+
+    <string name="contact_select_title">请选择联系人管理项：</string>
+    	<string name="addcontact_title">为受控者添加联系人</string>
+    		<string name="addcontact_inputname">在此输入联系人姓名</string>
+    		<string name="addcontact_inputnumber">在此输入联系人号码</string>
+    	<string name="delcontact_title">为受控者删除联系人</string>
+    		<string name="delcontact_inputnumber">在此输入要删除的联系人号码</string>
+    	<string name="contact_seeall">查看当前所有联系人名单</string>
+    	<string name="contact_blacknums">管理受控者的黑名单</string>
+    		<string name="blacknum_add">添加黑名单</string>
+    		<string name="blacknum_inputnum">在此输入被黑的电话号码</string>
+    		<string name="blackmanage_title">黑名单管理</string>
+    		<string name="blacknumlistnull_tip">您尚无为此受控者添加黑名单！</string>
+    		<string name="blacknumlist_tip">以下是此受控者的黑名单列表：</string>
+    		<string name="backnumlist_del">您确定要在黑名单中删除此号码吗?</string>
+
+    <string name="check_select_title">请选择查询操作：</string>
+    	<string name="check_local">查看受控者当前所在位置</string>
+    	<string name="check_msgrecord">查看受控者近期的短信记录</string>
+    	<string name="check_conversationrecord">查看受控者近期的通话记录</string>
+
+    <string name="other_select_title">请选择其他操作：</string>
+    	<string name="changehost_title">更改我的信息</string>
+    		<string name="changehost_inputemail">在此输入您的电子邮箱</string>
+    		<string name="changehost_inputctrlpwd">在此输入控制密码</string>
+    		<string name="changehost_tellthis">"   "通知当前受控者</string>
+    		<string name="changehost_tellall">"   "通知所有受控者</string>
+    		<string name="changehost_tellnobody">"   "不进行通知</string>
+    		<string name="changhost_waite">正在通知：</string>
+    		<string name="changehost_tellthissuccess">成功通知当前受控者！</string>
+    		<string name="changehost_tellthisfail">通知当前受控者失败！</string>
+    		<string name="changehost_tellallsuccess">成功通知所有受控者！</string>
+    		<string name="changehosr_tellallfail">通知所有受控者失败！</string>
+    	<string name="emaillog_title">登录我的邮箱</string>
+    		<string name="emaillog_savepwd">保存密码</string>
+    		<string name="emaillog_autologin">自动登录</string>
+    		<string name="emaillog_btntext">登录</string>
+    		<string name="emaillogin_error">本次登录失败！请在menu菜单中退出邮箱，待检查网络正常后重新登录。自动登录已经取消。</string>
+    	<string name="checkunderctrl_title">检查是否正受控</string>
+    		<string name="checkunderctrl_tip">请耐心等待受控者的短信回应...</string>
+    	
+	<string name="email_title">我的邮箱</string>
+	<string name="email_titlelisttip1">以下是您收件箱中的邮件列表：（右侧有小标记的是受控者反馈的信息）</string>
+	<string name="email_titlelisttip2">（右侧有小标记的是受控者反馈的信息）本次登录未获取到任何受控者反馈的信息，若想查看原因及办法请点击如下按钮：</string>
+	<string name="email_titlelist_btn">查看原因</string>
+	<string name="email_titlelisttip3"> 可能的原因以及部分解决办法如下："\n\t"
+													1、受控者未接收到您的命令：重新发送获取信息的命令；"\n\t"
+													2、您或者受控者的手机网络连接异常：检查手机网络连接；"\n\t"
+													3、您更改邮箱地址时没有通知受控者：在更改邮箱信息页重新通知；"\n\t"
+													4、受控者丢失数据：重新删除和添加受控者；"\n\t"
+													5、受控者将受控端软件卸载掉了。</string>    	
+													
+													
+	<string name="email_title_dlgtitle">正在连接</string>	
+	<string name="email_title_contenttitleget">正在获取邮件内容</string>
+	<string name="email_title_dlgcontent">"\n\t\t"请稍候……</string>												
+	<string name="email_title_menurefresh">刷新列表</string>
+	<string name="email_title_menuauto">下次自动登录</string>
+	<string name="email_title_menuautocancle">取消自动登录</string>
+	<string name="email_title_menuexit">退出邮箱</string>
+	<string name="email_content_menusaveemail">提取邮件内容</string>
+		<string name="email_content_tip">内容：</string>
+		<string name="email_contentsave_success">"邮件已成功存储到SD卡Emails目录中！"</string>
+		<string name="email_contentsave_substr">邮件主题：</string>
+		<string name="email_contentsave_fromstr">发件人：</string>
+		<string name="email_contentsave_timestr">接收时间：</string>
+		<string name="email_contentsave_contentstr">邮件内容：</string>
+	<string name="email_content_menureturnlist">返回邮件列表</string>
+	<string name="email_content_containattach">haveattach</string>
+	<string name="email_content_uncontainattach">noattach</string>	
+	<string name="email_attachdownload">下载附件到存储卡</string>
+	<string name="email_content_from">"   来自："</string>
+	<string name="email_content_fromnull">"   来自： 未知"</string>
+	<string name="alarm_emaildelsure">"您确定要删除本邮件吗? "</string>
+	
+	
+	<string name="addwidget_success">桌面小部件添加成功！</string>
+	<string name="addwidget_fail">桌面小部件添加失败！</string>
+	
+	<string name="alarm_delcontactnull">要删除的联系人号码不能为空！</string>
+	<string name="alarm_addcontactnull">联系人的姓名和密码均不能为空！</string>
+	<string name="alarm_sendsecretmsgnull">加密短信的内容和密码均不能为空！</string>
+	<string name="alarm_sendmsgnumnull">短信接收者的号码不能为空！</string>
+	<string name="alarm_dialnumbernull">要拨打的电话号码不能为空！</string>
+	<string name="alarm_emailaddressnull">"\t\t"您未保存邮箱地址，请运行程序进行保存！</string>
+	<string name="alarm_emailloginfail">登录失败！请检查密码是否正确和网络连接是否正常。</string>
+	<string name="alarm_getemailidfail">读取邮件失败！请刷新列表重新查看</string>
+	<string name="alarm_getemailconrentfailtext">"\t\t无法获取邮件内容，请检查网络连接，并在menu菜单项中返回邮件列表重试。"</string>
+	<string name="alarm_sdcardunpresent">"对不起！请先确保您的存储卡可以写入文件！"</string>
+	<string name="alarm_emaildelfail">"\t\t邮件删除失败！请查看网络连接是否正常，稍后再试。"</string>
+	<string name="alarm_getemailcontentfail">"\t\t网络异常！无法获取邮件内容，请返回到邮件列表刷新重试，或者重新登录邮箱。"</string>
+    <string name="manageunderctrllist_tip">小提示："\n\n"
+    											1、按菜单键可以添加受控者和返回；"\n"
+    											2、点击列表项可以选择对其进行控制；"\n"
+    											3、长按列表项可以对其进行修改和删除；"\n"
+    											4、添加受控者前请先确保其手机上已经安装受控端软件，否则无效；"\n"
+    											5、对方被控制后会收到提示，并可以选择拒绝被控制，以保障受控者隐私。</string>
+    <string name="manageblacknums_tip">小提示："\n\n"
+    											1、按菜单键可以添加黑名单和返回；"\n"
+    											2、点击列表项可以删除该项。"\n"
+    											3、尽量不要反复添加和删除，每进行一次就会发送一条信息的哦。</string>
+	    											
+</resources>

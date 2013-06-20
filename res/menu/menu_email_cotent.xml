@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item   
+        android:id="@+id/menu_emailcontent_del"
+        android:title="@string/ctrl_del"   
+        android:icon="@drawable/ctrl_del"/> 
+    <item   
+        android:id="@+id/menu_emailcontent_save"   
+        android:title="@string/email_content_menusaveemail"
+        android:icon="@drawable/ctrl_save"/>  
+   <item   
+        android:id="@+id/menu_emailcontent_return"   
+        android:title="@string/email_content_menureturnlist"
+        android:icon="@drawable/ctrl_return"/>          
+ 
+</menu>
